@@ -1,18 +1,34 @@
-# CodeIgniter 4 Application Starter
+# Rymoney-CI
 
-## What is CodeIgniter?
+## What is Rymoney-CI?
+
+Rymoney-CI is a simple money management application build using CodeIgniter 4.
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
 More information can be found at the [official site](http://codeigniter.com).
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
 More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## Features
+
+- [x] Register (Daftar)
+- [x] Login (Masuk)
+- [x] Forgot Password (Lupa Password)
+- [x] Reset Password
+- [x] Send Auth Email (Auth dengan Email)
+- [x] Setting Account (Setelan Akun)
+- [ ] Dashboard
+- [ ] Uang Masuk
+- [ ] Kategori Uang Masuk
+- [ ] Uang Keluar
+- [ ] Kategori Uang Keluar
+
+## Technology 
+
+- [Codeigniter 4](https://codeigniter.com/)
+- [Codeigniter 4 Auth](https://github.com/divpusher/codeigniter4-auth)
+- [MySql (XAMPP)](https://www.apachefriends.org/download.html) 
+- Template: SB Admin
 
 ## Installation & updates
 
@@ -38,15 +54,6 @@ not to the project root. A better practice would be to configure a virtual host 
 framework are exposed.
 
 **Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
 
 ## Server Requirements
 
