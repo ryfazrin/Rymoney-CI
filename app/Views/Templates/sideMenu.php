@@ -2,9 +2,9 @@
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
             <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+                <i class="fas fa-money-bill"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">Admin Ryris</div>
+            <div class="sidebar-brand-text mx-3">Rymoney</div>
         </a>
 
         <!-- Divider -->
@@ -12,7 +12,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="<?= base_url('/') ?>">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
@@ -94,7 +94,7 @@
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Pengaturan :</h6>
-                    <a class="collapse-item" href="utilities-color.html">Status Order</a>
+                    <a class="collapse-item" href="utilities-color.html">Users</a>
                 </div>
             </div>
         </li>
