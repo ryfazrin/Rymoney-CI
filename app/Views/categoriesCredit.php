@@ -59,20 +59,6 @@
                   <input type="text" id="name" name="name" class="form-control" placeholder="Name"  maxlength="191" required>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="createdAt"> Created at: </label>
-                  <input type="number" id="createdAt" name="createdAt" class="form-control" placeholder="Created at"  maxlength="20" number="true" >
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="updatedAt"> Updated at: </label>
-                  <input type="number" id="updatedAt" name="updatedAt" class="form-control" placeholder="Updated at"  maxlength="20" number="true" >
-                </div>
-              </div>
             </div>
 
                   </div>
@@ -113,20 +99,6 @@
                 <div class="form-group">
 	                <label for="name"> Name: <span class="text-danger">*</span> </label>
                   <input type="text" id="name" name="name" class="form-control" placeholder="Name"  maxlength="191" required>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="createdAt"> Created at: </label>
-                  <input type="number" id="createdAt" name="createdAt" class="form-control" placeholder="Created at"  maxlength="20" number="true" >
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="updatedAt"> Updated at: </label>
-                  <input type="number" id="updatedAt" name="updatedAt" class="form-control" placeholder="Updated at"  maxlength="20" number="true" >
                 </div>
               </div>
             </div>
@@ -278,8 +250,6 @@
         $("#edit-form #id").val(response.id);
       $("#edit-form #userId").val(response.user_id);
       $("#edit-form #name").val(response.name);
-      $("#edit-form #createdAt").val(response.created_at);
-      $("#edit-form #updatedAt").val(response.updated_at);
 
         // submit the edit from 
         $.validator.setDefaults({
