@@ -88,15 +88,11 @@ class CategoriesDebit extends BaseController
         $fields['id'] = $this->request->getPost('id');
         $fields['user_id'] = $this->request->getPost('userId');
         $fields['name'] = $this->request->getPost('name');
-        $fields['created_at'] = $this->request->getPost('createdAt');
-        $fields['updated_at'] = $this->request->getPost('updatedAt');
 
 
         $this->validation->setRules([
             'user_id' => ['label' => 'User', 'rules' => 'required|max_length[11]'],
             'name' => ['label' => 'Name', 'rules' => 'required|max_length[191]'],
-            'created_at' => ['label' => 'Created at', 'rules' => 'permit_empty|max_length[20]'],
-            'updated_at' => ['label' => 'Updated at', 'rules' => 'permit_empty|max_length[20]'],
 
         ]);
 
@@ -131,15 +127,11 @@ class CategoriesDebit extends BaseController
         $fields['id'] = $this->request->getPost('id');
         $fields['user_id'] = $this->request->getPost('userId');
         $fields['name'] = $this->request->getPost('name');
-        $fields['created_at'] = $this->request->getPost('createdAt');
-        $fields['updated_at'] = $this->request->getPost('updatedAt');
 
 
         $this->validation->setRules([
             'user_id' => ['label' => 'User', 'rules' => 'required|max_length[11]'],
             'name' => ['label' => 'Name', 'rules' => 'required|max_length[191]'],
-            'created_at' => ['label' => 'Created at', 'rules' => 'permit_empty|max_length[20]'],
-            'updated_at' => ['label' => 'Updated at', 'rules' => 'permit_empty|max_length[20]'],
 
         ]);
 
