@@ -79,21 +79,7 @@
                   <input type="date" id="debitDate" name="debitDate" class="form-control" dateISO="true" required>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="createdAt"> Created at: </label>
-                  <input type="number" id="createdAt" name="createdAt" class="form-control" placeholder="Created at"  maxlength="20" number="true" >
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="updatedAt"> Updated at: </label>
-                  <input type="number" id="updatedAt" name="updatedAt" class="form-control" placeholder="Updated at"  maxlength="20" number="true" >
-                </div>
-              </div>
-            </div>
+            </div>    
 
                   </div>
                   <div class="modal-footer">
@@ -153,20 +139,6 @@
                 <div class="form-group">
 	                <label for="debitDate"> Debit date: <span class="text-danger">*</span> </label>
                   <input type="date" id="debitDate" name="debitDate" class="form-control" dateISO="true" required>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="createdAt"> Created at: </label>
-                  <input type="number" id="createdAt" name="createdAt" class="form-control" placeholder="Created at"  maxlength="20" number="true" >
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="form-group">
-	                <label for="updatedAt"> Updated at: </label>
-                  <input type="number" id="updatedAt" name="updatedAt" class="form-control" placeholder="Updated at"  maxlength="20" number="true" >
                 </div>
               </div>
             </div>
@@ -321,8 +293,6 @@
       $("#edit-form #nominal").val(response.nominal);
       $("#edit-form #description").val(response.description);
       $("#edit-form #debitDate").val(response.debit_date);
-      $("#edit-form #createdAt").val(response.created_at);
-      $("#edit-form #updatedAt").val(response.updated_at);
 
         // submit the edit from 
         $.validator.setDefaults({
@@ -461,18 +431,5 @@
       }
     })
   }
-
-
-    // $(document).on("click", "#edit", function () {
-    //     $(".modal-body #id").val($(this).data('id'));
-    //     $(".modal-body #nama").val($(this).data('nama'));
-    //     $(".modal-body #username").val($(this).data('username'));
-    //     $(".modal-body #oldphoto").val($(this).data('oldphoto'));
-    // });
-
-    // $(document).on("click", "#delete", function () {
-    //     $("#deleteButton").attr("href", $(this).data('href'));
-    //     $("#deletePengguna").modal('show');
-    // });
 </script>
 <?= $this->endSection() ?>
