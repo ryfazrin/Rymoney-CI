@@ -17,9 +17,9 @@ class Credit extends Migration
       'category_id' => ['type' => 'int', 'constraint' => 11, 'unsigned' => true],
       'nominal'			=> ['type' => 'bigint', 'constraint' => 11],
       'description' => ['type' => 'text', 'null' => true],
-      'credit_date'  => ['type' => 'datetime'],
-      'created_at'	=> ['type' => 'bigint', 'null' => true],
-      'updated_at'  => ['type' => 'bigint', 'null' => true]
+      'credit_date' => ['type' => 'datetime'],
+      'created_at'	=> ['type' => 'datetime'],
+      'updated_at'  => ['type' => 'datetime']
     ]);
     $this->forge->addKey('id', true);
     $this->forge->addForeignKey('user_id', 'users', 'id', 'RESTRICT', 'CASCADE');

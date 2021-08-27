@@ -18,8 +18,8 @@ class Debit extends Migration
       'nominal'			=> ['type' => 'bigint', 'constraint' => 11],
       'description' => ['type' => 'text', 'null' => true],
       'debit_date'  => ['type' => 'datetime'],
-      'created_at'	=> ['type' => 'bigint', 'null' => true],
-      'updated_at'  => ['type' => 'bigint', 'null' => true]
+      'created_at'	=> ['type' => 'datetime'],
+      'updated_at'  => ['type' => 'datetime']
     ]);
     $this->forge->addKey('id', true);
     $this->forge->addForeignKey('user_id', 'users', 'id', 'RESTRICT', 'CASCADE');
