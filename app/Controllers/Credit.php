@@ -94,8 +94,6 @@ class Credit extends BaseController
         $fields['nominal'] = $this->request->getPost('nominal');
         $fields['description'] = $this->request->getPost('description');
         $fields['credit_date'] = $this->request->getPost('creditDate');
-        $fields['created_at'] = $this->request->getPost('createdAt');
-        $fields['updated_at'] = $this->request->getPost('updatedAt');
 
 
         $this->validation->setRules([
@@ -104,8 +102,6 @@ class Credit extends BaseController
             'nominal' => ['label' => 'Nominal', 'rules' => 'required|max_length[11]'],
             'description' => ['label' => 'Keterangan', 'rules' => 'permit_empty'],
             'credit_date' => ['label' => 'Tanggal', 'rules' => 'required'],
-            'created_at' => ['label' => 'Created at', 'rules' => 'permit_empty|max_length[20]'],
-            'updated_at' => ['label' => 'Updated at', 'rules' => 'permit_empty|max_length[20]'],
 
         ]);
 
@@ -143,8 +139,6 @@ class Credit extends BaseController
         $fields['nominal'] = $this->request->getPost('nominal');
         $fields['description'] = $this->request->getPost('description');
         $fields['credit_date'] = $this->request->getPost('creditDate');
-        $fields['created_at'] = $this->request->getPost('createdAt');
-        $fields['updated_at'] = $this->request->getPost('updatedAt');
 
 
         $this->validation->setRules([
@@ -153,8 +147,6 @@ class Credit extends BaseController
             'nominal' => ['label' => 'Nominal', 'rules' => 'required|max_length[11]'],
             'description' => ['label' => 'Keterangan', 'rules' => 'permit_empty'],
             'credit_date' => ['label' => 'Tanggal', 'rules' => 'required'],
-            'created_at' => ['label' => 'Created at', 'rules' => 'permit_empty|max_length[20]'],
-            'updated_at' => ['label' => 'Updated at', 'rules' => 'permit_empty|max_length[20]'],
 
         ]);
 
