@@ -11,24 +11,24 @@ More information about the plans for version 4 can be found in [the announcement
 
 ## Features
 
-- [x] Register (Daftar)
-- [x] Login (Masuk)
-- [x] Forgot Password (Lupa Password)
-- [x] Reset Password
-- [x] Send Auth Email (Auth dengan Email)
-- [x] Setting Account (Setelan Akun)
+- [ ] Register (Daftar)
+- [ ] Login (Masuk)
+- [ ] Forgot Password (Lupa Password)
+- [ ] Reset Password
+- [ ] Send Auth Email (Auth dengan Email)
+- [ ] Setting Account (Setelan Akun)
 - [ ] Dashboard
-- [ ] Uang Masuk
-- [ ] Kategori Uang Masuk
-- [ ] Uang Keluar
-- [ ] Kategori Uang Keluar
+- [x] Uang Masuk
+- [x] Kategori Uang Masuk
+- [x] Uang Keluar
+- [x] Kategori Uang Keluar
 
 ## Technology 
 
 - [Codeigniter 4](https://codeigniter.com/)
 - [Codeigniter 4 Auth](https://github.com/divpusher/codeigniter4-auth)
 - [MySql (XAMPP)](https://www.apachefriends.org/download.html) 
-- Template: SB Admin
+- Template: [SB Admin](https://github.com/startbootstrap/startbootstrap-sb-admin-2)
 
 ## Installation & updates
 
@@ -38,6 +38,10 @@ there is a new release of the framework.
 When updating, check the release notes to see if there are any changes you might need to apply
 to your `app` folder. The affected files can be copied or merged from
 `vendor/codeigniter4/framework/app`.
+
+## Link 
+
+https://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html
 
 ## Setup
 
